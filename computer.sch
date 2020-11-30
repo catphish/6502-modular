@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -284,8 +284,6 @@ F 3 "https://ecee.colorado.edu/~mcclurel/Cypress_SRAM_CY62256.pdf" H 1650 4400 5
 	1    1650 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 1150 10950 0    79   ~ 0
-Notes:\n\nThere are several peripherals still to do: serial, storage, keyboard, audio.\nThere are no decoupling caps, or power supplies for 74xx yet.\nThe video card is not quite complete. It requires the HSYNC/VSYNC to be set up.\nThe video card may or may not actually work. This is a first draft.\n\nSorry there are not wires. I like labels.
 Text GLabel 5000 2600 2    50   Output ~ 0
 A0
 Text GLabel 5000 2700 2    50   Output ~ 0
