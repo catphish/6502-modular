@@ -124,7 +124,7 @@ Wire Notes Line
 Text Notes 3200 2050 0    50   ~ 0
 Just a 6502.
 Text Notes 5500 2050 0    50   ~ 0
-EEPROM - 128KB (16KB usable)
+EEPROM - 32KB (16KB usable)
 Wire Notes Line
 	5500 2050 7150 2050
 Wire Notes Line
