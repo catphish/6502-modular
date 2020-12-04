@@ -1019,17 +1019,6 @@ F 3 "" H 5650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5FF25036
-P 7200 5200
-F 0 "C4" H 7000 5250 50  0000 L CNN
-F 1 "0.1uF" H 6900 5150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 7238 5050 50  0001 C CNN
-F 3 "~" H 7200 5200 50  0001 C CNN
-	1    7200 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5FF24BB4
 P 6750 5200
@@ -1064,4 +1053,15 @@ F 3 "~" H 5850 5200 50  0001 C CNN
 $EndComp
 Text GLabel 4700 1300 2    50   Output ~ 0
 CLK
+$Comp
+L Device:C C4
+U 1 1 5FCA8BFB
+P 7200 5200
+F 0 "C4" H 7000 5250 50  0000 L CNN
+F 1 "0.1uF" H 6900 5150 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 7238 5050 50  0001 C CNN
+F 3 "~" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
