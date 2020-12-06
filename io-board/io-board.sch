@@ -24,71 +24,71 @@ F 3 "~" H 8050 5150 50  0001 C CNN
 	1    8050 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 4750 0    50   BiDi ~ 0
-A0
 Text GLabel 7850 4850 0    50   BiDi ~ 0
-A2
+A0
 Text GLabel 7850 4950 0    50   BiDi ~ 0
-A4
+A2
 Text GLabel 7850 5050 0    50   BiDi ~ 0
-A6
+A4
 Text GLabel 7850 5150 0    50   BiDi ~ 0
-A8
+A6
 Text GLabel 7850 5250 0    50   BiDi ~ 0
-A10
+A8
 Text GLabel 7850 5350 0    50   BiDi ~ 0
-A12
+A10
 Text GLabel 7850 5450 0    50   BiDi ~ 0
-A14
-Text GLabel 8350 4750 2    50   BiDi ~ 0
-A1
-Text GLabel 8350 4850 2    50   BiDi ~ 0
-A3
-Text GLabel 8350 5050 2    50   BiDi ~ 0
-A7
-Text GLabel 8350 5150 2    50   BiDi ~ 0
-A9
-Text GLabel 8350 5250 2    50   BiDi ~ 0
-A11
-Text GLabel 8350 5350 2    50   BiDi ~ 0
-A13
-Text GLabel 8350 5450 2    50   BiDi ~ 0
-A15
-Text GLabel 8350 5550 2    50   BiDi ~ 0
-D1
-Text GLabel 8350 5650 2    50   BiDi ~ 0
-D3
-Text GLabel 8350 5750 2    50   BiDi ~ 0
-D5
-Text GLabel 8350 5850 2    50   BiDi ~ 0
-D7
+A12
 Text GLabel 7850 5550 0    50   BiDi ~ 0
-D0
+A14
+Text GLabel 8350 4850 2    50   BiDi ~ 0
+A1
+Text GLabel 8350 4950 2    50   BiDi ~ 0
+A3
+Text GLabel 8350 5150 2    50   BiDi ~ 0
+A7
+Text GLabel 8350 5250 2    50   BiDi ~ 0
+A9
+Text GLabel 8350 5350 2    50   BiDi ~ 0
+A11
+Text GLabel 8350 5450 2    50   BiDi ~ 0
+A13
+Text GLabel 8350 5550 2    50   BiDi ~ 0
+A15
+Text GLabel 8350 5650 2    50   BiDi ~ 0
+D1
+Text GLabel 8350 5750 2    50   BiDi ~ 0
+D3
+Text GLabel 8350 5850 2    50   BiDi ~ 0
+D5
+Text GLabel 8350 5950 2    50   BiDi ~ 0
+D7
 Text GLabel 7850 5650 0    50   BiDi ~ 0
-D2
+D0
 Text GLabel 7850 5750 0    50   BiDi ~ 0
-D4
+D2
 Text GLabel 7850 5850 0    50   BiDi ~ 0
+D4
+Text GLabel 7850 5950 0    50   BiDi ~ 0
 D6
-Text GLabel 7850 4250 0    50   BiDi ~ 0
+Text GLabel 7850 4350 0    50   BiDi ~ 0
 PHI1
-Text GLabel 8350 4250 2    50   BiDi ~ 0
+Text GLabel 8350 4350 2    50   BiDi ~ 0
 PHI2
 Text GLabel 8350 4650 2    50   BiDi ~ 0
 !RESET
-Text GLabel 7850 4350 0    50   BiDi ~ 0
-!IRQ
-Text GLabel 8350 4450 2    50   BiDi ~ 0
-R!W
 Text GLabel 7850 4450 0    50   BiDi ~ 0
-RDY
-Text GLabel 7850 4550 0    50   Output ~ 0
-!WRITE
-Text GLabel 8350 4550 2    50   BiDi ~ 0
-!READ
+!IRQ
 Text GLabel 7850 4650 0    50   BiDi ~ 0
+R!W
+Text GLabel 7850 4750 0    50   BiDi ~ 0
+RDY
+Text GLabel 8350 4550 2    50   BiDi ~ 0
+!WRITE
+Text GLabel 7850 4550 0    50   BiDi ~ 0
+!READ
+Text GLabel 8350 4250 2    50   BiDi ~ 0
 CLK
-Text GLabel 8350 4350 2    50   BiDi ~ 0
+Text GLabel 8350 4450 2    50   BiDi ~ 0
 !NMI
 $Comp
 L power:GND #PWR0151
@@ -102,25 +102,14 @@ F 3 "" H 8350 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0150
-U 1 1 5FC27FC7
+L power:+5V #PWR0147
+U 1 1 5FC259E0
 P 8350 6050
-F 0 "#PWR0150" H 8350 5800 50  0001 C CNN
-F 1 "GND" V 8350 5850 50  0000 C CNN
+F 0 "#PWR0147" H 8350 5900 50  0001 C CNN
+F 1 "+5V" V 8350 6200 50  0000 L CNN
 F 2 "" H 8350 6050 50  0001 C CNN
 F 3 "" H 8350 6050 50  0001 C CNN
 	1    8350 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0147
-U 1 1 5FC259E0
-P 8350 5950
-F 0 "#PWR0147" H 8350 5800 50  0001 C CNN
-F 1 "+5V" V 8350 6100 50  0000 L CNN
-F 2 "" H 8350 5950 50  0001 C CNN
-F 3 "" H 8350 5950 50  0001 C CNN
-	1    8350 5950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -135,25 +124,14 @@ F 3 "" H 7850 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0107
-U 1 1 5FC3A5A4
+L power:+5V #PWR0146
+U 1 1 5FC24664
 P 7850 6050
-F 0 "#PWR0107" H 7850 5800 50  0001 C CNN
-F 1 "GND" V 7850 5850 50  0000 C CNN
+F 0 "#PWR0146" H 7850 5900 50  0001 C CNN
+F 1 "+5V" V 7850 6200 50  0000 L CNN
 F 2 "" H 7850 6050 50  0001 C CNN
 F 3 "" H 7850 6050 50  0001 C CNN
 	1    7850 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0146
-U 1 1 5FC24664
-P 7850 5950
-F 0 "#PWR0146" H 7850 5800 50  0001 C CNN
-F 1 "+5V" V 7850 6100 50  0000 L CNN
-F 2 "" H 7850 5950 50  0001 C CNN
-F 3 "" H 7850 5950 50  0001 C CNN
-	1    7850 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -222,7 +200,7 @@ Text GLabel 5200 3400 0    50   Input ~ 0
 D7
 Text GLabel 5200 2500 0    50   Input ~ 0
 R!W
-Text GLabel 8350 4950 2    50   BiDi ~ 0
+Text GLabel 8350 5050 2    50   BiDi ~ 0
 A5
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J2
@@ -235,72 +213,52 @@ F 3 "~" H 9550 5150 50  0001 C CNN
 	1    9550 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 4750 0    50   BiDi ~ 0
-A0
 Text GLabel 9350 4850 0    50   BiDi ~ 0
-A2
+A0
 Text GLabel 9350 4950 0    50   BiDi ~ 0
-A4
+A2
 Text GLabel 9350 5050 0    50   BiDi ~ 0
-A6
+A4
 Text GLabel 9350 5150 0    50   BiDi ~ 0
-A8
+A6
 Text GLabel 9350 5250 0    50   BiDi ~ 0
-A10
+A8
 Text GLabel 9350 5350 0    50   BiDi ~ 0
-A12
+A10
 Text GLabel 9350 5450 0    50   BiDi ~ 0
-A14
-Text GLabel 9850 4750 2    50   BiDi ~ 0
-A1
-Text GLabel 9850 4850 2    50   BiDi ~ 0
-A3
-Text GLabel 9850 5050 2    50   BiDi ~ 0
-A7
-Text GLabel 9850 5150 2    50   BiDi ~ 0
-A9
-Text GLabel 9850 5250 2    50   BiDi ~ 0
-A11
-Text GLabel 9850 5350 2    50   BiDi ~ 0
-A13
-Text GLabel 9850 5450 2    50   BiDi ~ 0
-A15
-Text GLabel 9850 5550 2    50   BiDi ~ 0
-D1
-Text GLabel 9850 5650 2    50   BiDi ~ 0
-D3
-Text GLabel 9850 5750 2    50   BiDi ~ 0
-D5
-Text GLabel 9850 5850 2    50   BiDi ~ 0
-D7
+A12
 Text GLabel 9350 5550 0    50   BiDi ~ 0
-D0
+A14
+Text GLabel 9850 4850 2    50   BiDi ~ 0
+A1
+Text GLabel 9850 4950 2    50   BiDi ~ 0
+A3
+Text GLabel 9850 5150 2    50   BiDi ~ 0
+A7
+Text GLabel 9850 5250 2    50   BiDi ~ 0
+A9
+Text GLabel 9850 5350 2    50   BiDi ~ 0
+A11
+Text GLabel 9850 5450 2    50   BiDi ~ 0
+A13
+Text GLabel 9850 5550 2    50   BiDi ~ 0
+A15
+Text GLabel 9850 5650 2    50   BiDi ~ 0
+D1
+Text GLabel 9850 5750 2    50   BiDi ~ 0
+D3
+Text GLabel 9850 5850 2    50   BiDi ~ 0
+D5
+Text GLabel 9850 5950 2    50   BiDi ~ 0
+D7
 Text GLabel 9350 5650 0    50   BiDi ~ 0
-D2
+D0
 Text GLabel 9350 5750 0    50   BiDi ~ 0
-D4
+D2
 Text GLabel 9350 5850 0    50   BiDi ~ 0
+D4
+Text GLabel 9350 5950 0    50   BiDi ~ 0
 D6
-Text GLabel 9350 4250 0    50   BiDi ~ 0
-PHI1
-Text GLabel 9850 4250 2    50   BiDi ~ 0
-PHI2
-Text GLabel 9850 4650 2    50   BiDi ~ 0
-!RESET
-Text GLabel 9350 4350 0    50   BiDi ~ 0
-!IRQ
-Text GLabel 9850 4450 2    50   BiDi ~ 0
-R!W
-Text GLabel 9350 4450 0    50   BiDi ~ 0
-RDY
-Text GLabel 9350 4550 0    50   Output ~ 0
-!WRITE
-Text GLabel 9850 4550 2    50   BiDi ~ 0
-!READ
-Text GLabel 9350 4650 0    50   BiDi ~ 0
-CLK
-Text GLabel 9850 4350 2    50   BiDi ~ 0
-!NMI
 $Comp
 L power:GND #PWR020
 U 1 1 5FC8202A
@@ -313,25 +271,14 @@ F 3 "" H 9850 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR019
-U 1 1 5FC82034
+L power:+5V #PWR018
+U 1 1 5FC8203E
 P 9850 6050
-F 0 "#PWR019" H 9850 5800 50  0001 C CNN
-F 1 "GND" V 9850 5850 50  0000 C CNN
+F 0 "#PWR018" H 9850 5900 50  0001 C CNN
+F 1 "+5V" V 9850 6200 50  0000 L CNN
 F 2 "" H 9850 6050 50  0001 C CNN
 F 3 "" H 9850 6050 50  0001 C CNN
 	1    9850 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR018
-U 1 1 5FC8203E
-P 9850 5950
-F 0 "#PWR018" H 9850 5800 50  0001 C CNN
-F 1 "+5V" V 9850 6100 50  0000 L CNN
-F 2 "" H 9850 5950 50  0001 C CNN
-F 3 "" H 9850 5950 50  0001 C CNN
-	1    9850 5950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -346,28 +293,17 @@ F 3 "" H 9350 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR014
-U 1 1 5FC82052
+L power:+5V #PWR013
+U 1 1 5FC8205C
 P 9350 6050
-F 0 "#PWR014" H 9350 5800 50  0001 C CNN
-F 1 "GND" V 9350 5850 50  0000 C CNN
+F 0 "#PWR013" H 9350 5900 50  0001 C CNN
+F 1 "+5V" V 9350 6200 50  0000 L CNN
 F 2 "" H 9350 6050 50  0001 C CNN
 F 3 "" H 9350 6050 50  0001 C CNN
 	1    9350 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR013
-U 1 1 5FC8205C
-P 9350 5950
-F 0 "#PWR013" H 9350 5800 50  0001 C CNN
-F 1 "+5V" V 9350 6100 50  0000 L CNN
-F 2 "" H 9350 5950 50  0001 C CNN
-F 3 "" H 9350 5950 50  0001 C CNN
-	1    9350 5950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9850 4950 2    50   BiDi ~ 0
+Text GLabel 9850 5050 2    50   BiDi ~ 0
 A5
 Text GLabel 5200 1200 0    50   Input ~ 0
 !RESET
@@ -456,8 +392,6 @@ Text GLabel 1300 1500 0    50   Output ~ 0
 Text GLabel 1300 1300 0    50   Input ~ 0
 PHI2
 NoConn ~ 6400 1500
-Text GLabel 1550 5250 0    50   Input ~ 0
-A15
 $Comp
 L 74xx:74LS138 U3
 U 1 1 5FCA545F
@@ -469,16 +403,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 2050 5050 50  0001 C CNN
 	1    2050 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 5350 0    50   Input ~ 0
-A14
 Text GLabel 1550 4850 0    50   Input ~ 0
-A11
+A5
 Text GLabel 1550 4950 0    50   Input ~ 0
-A12
-Text GLabel 1550 5450 0    50   Input ~ 0
-A13
+A6
 Text GLabel 1550 4750 0    50   Input ~ 0
-A10
+A4
 NoConn ~ 2550 4950
 NoConn ~ 2550 5050
 NoConn ~ 2550 5150
@@ -597,7 +527,7 @@ RTS
 Text GLabel 6400 2400 2    50   Input ~ 0
 CTS
 Text Notes 950  6800 0    50   ~ 0
-This is the first peripheral board. It adds a 6522, which can be used to drive a\nparallel port and PS/2 keyboard. It also adds a 6551 and RS232 port.\n\n4 bits of address space (A13, A12, A11, A10) are used to select a peripheral.\nThis board uses 0000 and 0001.
+This is the first peripheral board. It adds a 6522, which can be used to drive a\nparallel port and PS/2 keyboard. It also adds a 6551 and RS232 port.\n\n4 bits of address space (A7, A6, A5, A4) are used to select a peripheral.\nThis board uses 0000 and 0001.
 NoConn ~ 6400 2600
 NoConn ~ 6400 2700
 NoConn ~ 6400 2900
@@ -778,17 +708,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 3300 3150 3300
 $Comp
-L power:+5V #PWR0106
-U 1 1 5FCC75C3
-P 3150 3400
-F 0 "#PWR0106" H 3150 3250 50  0001 C CNN
-F 1 "+5V" V 3165 3528 50  0000 L CNN
-F 2 "" H 3150 3400 50  0001 C CNN
-F 3 "" H 3150 3400 50  0001 C CNN
-	1    3150 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x06 J5
 U 1 1 5FCC838F
 P 7100 2100
@@ -839,4 +758,76 @@ F 3 "" H 6900 2400 50  0001 C CNN
 $EndComp
 Text GLabel 4450 5100 2    50   Input ~ 0
 CLK_S
+$Comp
+L power:GND #PWR0107
+U 1 1 5FCC8CC9
+P 7850 4250
+F 0 "#PWR0107" H 7850 4000 50  0001 C CNN
+F 1 "GND" V 7850 4050 50  0000 C CNN
+F 2 "" H 7850 4250 50  0001 C CNN
+F 3 "" H 7850 4250 50  0001 C CNN
+	1    7850 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 8350 4750 2    50   BiDi ~ 0
+!P_SELECT
+Text GLabel 9350 4350 0    50   BiDi ~ 0
+PHI1
+Text GLabel 9350 4450 0    50   BiDi ~ 0
+!IRQ
+Text GLabel 9350 4650 0    50   BiDi ~ 0
+R!W
+Text GLabel 9350 4750 0    50   BiDi ~ 0
+RDY
+Text GLabel 9350 4550 0    50   BiDi ~ 0
+!READ
+$Comp
+L power:GND #PWR0111
+U 1 1 5FCCC288
+P 9350 4250
+F 0 "#PWR0111" H 9350 4000 50  0001 C CNN
+F 1 "GND" V 9350 4050 50  0000 C CNN
+F 2 "" H 9350 4250 50  0001 C CNN
+F 3 "" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 9850 4350 2    50   BiDi ~ 0
+PHI2
+Text GLabel 9850 4650 2    50   BiDi ~ 0
+!RESET
+Text GLabel 9850 4550 2    50   BiDi ~ 0
+!WRITE
+Text GLabel 9850 4250 2    50   BiDi ~ 0
+CLK
+Text GLabel 9850 4450 2    50   BiDi ~ 0
+!NMI
+Text GLabel 9850 4750 2    50   BiDi ~ 0
+!P_SELECT
+$Comp
+L power:+5V #PWR0112
+U 1 1 5FCCF7A4
+P 1550 5250
+F 0 "#PWR0112" H 1550 5100 50  0001 C CNN
+F 1 "+5V" V 1565 5378 50  0000 L CNN
+F 2 "" H 1550 5250 50  0001 C CNN
+F 3 "" H 1550 5250 50  0001 C CNN
+	1    1550 5250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 5450 0    50   Input ~ 0
+!P_SELECT
+Text GLabel 1550 5350 0    50   Input ~ 0
+A7
+$Comp
+L power:GND #PWR0106
+U 1 1 5FCD568B
+P 3150 3400
+F 0 "#PWR0106" H 3150 3150 50  0001 C CNN
+F 1 "GND" V 3155 3272 50  0000 R CNN
+F 2 "" H 3150 3400 50  0001 C CNN
+F 3 "" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
