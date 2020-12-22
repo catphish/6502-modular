@@ -2863,4 +2863,77 @@ Wire Notes Line
 	9300 5700 15850 5700
 Text Notes 850  10650 0    50   ~ 0
 This video card outputs SVGA at 800x600 using a 40MHz pixel clock. It displays a 100 x 37 array of 8x16 characters,\neach with 4-bit RGBI foreground and background colours. Characters are RAM based and therefore are fully\ncustomizable and must be supplied by the CPU at boot. It masters the CPU clock drives the CPU at 5MHz.\n\nThe circuit is in theory capable of displaying 1024 x 768 (128x48) but I couldn't find a through-hole 65MHz\noscillator. I am also worried about running the CPU at 8+MHZ without an upgraded ROM.
+$Comp
+L Connector:DB15_Female_HighDensity J?
+U 1 1 5FE4F9CB
+P 15050 7200
+F 0 "J?" H 15050 8067 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H 15050 7976 50  0000 C CNN
+F 2 "" H 14100 7600 50  0001 C CNN
+F 3 " ~" H 14100 7600 50  0001 C CNN
+	1    15050 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE5F12B
+P 14500 7600
+F 0 "#PWR?" H 14500 7350 50  0001 C CNN
+F 1 "GND" H 14500 7450 50  0000 C CNN
+F 2 "" H 14500 7600 50  0001 C CNN
+F 3 "" H 14500 7600 50  0001 C CNN
+	1    14500 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 14650 6800 0    50   Input ~ 0
+R
+Text GLabel 14650 7000 0    50   Input ~ 0
+G
+Text GLabel 14650 7200 0    50   Input ~ 0
+B
+Text GLabel 15450 7200 2    50   Input ~ 0
+HSYNC
+Text GLabel 15450 7400 2    50   Input ~ 0
+VSYNC
+Wire Wire Line
+	15450 7400 15350 7400
+Wire Wire Line
+	15350 7200 15450 7200
+Wire Wire Line
+	14650 7200 14750 7200
+Wire Wire Line
+	14650 7000 14750 7000
+Wire Wire Line
+	14650 6800 14750 6800
+Wire Wire Line
+	14750 7600 14500 7600
+Wire Wire Line
+	14500 6700 14750 6700
+Wire Wire Line
+	14500 6900 14750 6900
+Connection ~ 14500 6900
+Wire Wire Line
+	14500 6900 14500 6700
+Wire Wire Line
+	14500 7100 14750 7100
+Connection ~ 14500 7100
+Wire Wire Line
+	14500 7100 14500 6900
+Wire Wire Line
+	14500 7300 14750 7300
+Connection ~ 14500 7300
+Wire Wire Line
+	14500 7300 14500 7100
+Wire Wire Line
+	14500 7600 14500 7500
+Wire Wire Line
+	14500 7500 14750 7500
+Connection ~ 14500 7500
+Wire Wire Line
+	14500 7500 14500 7300
+NoConn ~ 14750 7400
+NoConn ~ 15350 6800
+NoConn ~ 15350 7000
+NoConn ~ 15350 7600
+Connection ~ 14500 7600
 $EndSCHEMATC
