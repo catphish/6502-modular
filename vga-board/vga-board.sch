@@ -263,27 +263,27 @@ F 3 "" H 14650 2050 50  0001 C CNN
 	1    14650 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 14150 1550 0    50   Input ~ 0
-X0
 Text GLabel 14150 1650 0    50   Input ~ 0
-X1
+X0
 Text GLabel 14150 1750 0    50   Input ~ 0
-X2
+X1
 Text GLabel 14150 1850 0    50   Input ~ 0
-X3
+X2
 Text GLabel 14150 1950 0    50   Input ~ 0
-X4
+X3
 Text GLabel 14150 2050 0    50   Input ~ 0
-X5
+X4
 Text GLabel 14150 2150 0    50   Input ~ 0
+X5
+Text GLabel 14150 2250 0    50   Input ~ 0
 X6
-Text GLabel 15150 1950 2    50   Output ~ 0
+Text GLabel 15150 1550 2    50   Output ~ 0
 HSYNC
-Text GLabel 15150 2050 2    50   Output ~ 0
+Text GLabel 15150 1650 2    50   Output ~ 0
 HBLANK
-Text GLabel 15150 2250 2    50   Output ~ 0
+Text GLabel 15150 1850 2    50   Output ~ 0
 LINE_INC
-Text GLabel 15150 2150 2    50   Output ~ 0
+Text GLabel 15150 1750 2    50   Output ~ 0
 !HRST
 $Comp
 L computer:GAL22V10 U18
@@ -296,27 +296,27 @@ F 3 "" H 14750 4600 50  0001 C CNN
 	1    14750 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 14250 4100 0    50   Input ~ 0
-Y0
 Text GLabel 14250 4200 0    50   Input ~ 0
-Y1
+Y0
 Text GLabel 14250 4300 0    50   Input ~ 0
-Y2
+Y1
 Text GLabel 14250 4400 0    50   Input ~ 0
-Y3
+Y2
 Text GLabel 14250 4500 0    50   Input ~ 0
-Y4
+Y3
 Text GLabel 14250 4600 0    50   Input ~ 0
-Y5
+Y4
 Text GLabel 14250 4700 0    50   Input ~ 0
-Y6
+Y5
 Text GLabel 14250 4800 0    50   Input ~ 0
+Y6
+Text GLabel 14250 4900 0    50   Input ~ 0
 Y7
-Text GLabel 15250 4500 2    50   Output ~ 0
+Text GLabel 15250 4200 2    50   Output ~ 0
 VSYNC
-Text GLabel 15250 4800 2    50   Output ~ 0
+Text GLabel 15250 4300 2    50   Output ~ 0
 BLANK
-Text GLabel 15250 4700 2    50   Output ~ 0
+Text GLabel 15250 4400 2    50   Output ~ 0
 !VRST
 Text GLabel 9850 6600 0    50   Input ~ 0
 A0
@@ -737,13 +737,13 @@ F 3 "" H 12650 1900 50  0001 C CNN
 	1    12650 1900
 	0    1    1    0   
 $EndComp
-Text GLabel 14150 2250 0    50   Input ~ 0
-X7
 Text GLabel 14150 2350 0    50   Input ~ 0
-X8
+X7
 Text GLabel 14150 2450 0    50   Input ~ 0
-X9
+X8
 Text GLabel 14150 2550 0    50   Input ~ 0
+X9
+Text GLabel 14150 2650 0    50   Input ~ 0
 X10
 NoConn ~ 13650 2100
 Wire Wire Line
@@ -832,11 +832,11 @@ Text GLabel 12750 5150 0    50   Input ~ 0
 !VRST
 Text GLabel 12650 2600 0    50   Input ~ 0
 !HRST
-Text GLabel 14250 4900 0    50   Input ~ 0
-Y8
 Text GLabel 14250 5000 0    50   Input ~ 0
-Y9
+Y8
 Text GLabel 14250 5100 0    50   Input ~ 0
+Y9
+Text GLabel 14250 5200 0    50   Input ~ 0
 Y10
 Text GLabel 13800 9100 2    50   Output ~ 0
 VCLK
@@ -1016,7 +1016,7 @@ Text GLabel 9600 10350 0    50   Input ~ 0
 PIXEL
 Text GLabel 9600 10450 0    50   Input ~ 0
 BLANK
-Text GLabel 14250 5200 0    50   Input ~ 0
+Text GLabel 15250 4100 2    50   Input ~ 0
 HBLANK
 $Comp
 L Device:R R2
@@ -1024,20 +1024,9 @@ U 1 1 5FE510C3
 P 10850 9450
 F 0 "R2" V 10950 9450 50  0000 C CNN
 F 1 "680R" V 10750 9450 50  0000 C CNN
-F 2 "" V 10780 9450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10780 9450 50  0001 C CNN
 F 3 "~" H 10850 9450 50  0001 C CNN
 	1    10850 9450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5FE5144C
-P 10850 9750
-F 0 "R3" V 10950 9750 50  0000 C CNN
-F 1 "680R" V 10750 9750 50  0000 C CNN
-F 2 "" V 10780 9750 50  0001 C CNN
-F 3 "~" H 10850 9750 50  0001 C CNN
-	1    10850 9750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1337,7 +1326,7 @@ U 1 1 5FE4FFEE
 P 10850 9150
 F 0 "R1" V 10950 9150 50  0000 C CNN
 F 1 "680R" V 10750 9150 50  0000 C CNN
-F 2 "" V 10780 9150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10780 9150 50  0001 C CNN
 F 3 "~" H 10850 9150 50  0001 C CNN
 	1    10850 9150
 	0    -1   -1   0   
@@ -1350,7 +1339,7 @@ U 1 1 5FE327C4
 P 11250 9150
 F 0 "R4" V 11350 9150 50  0000 C CNN
 F 1 "1.2k" V 11150 9150 50  0000 C CNN
-F 2 "" V 11180 9150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11180 9150 50  0001 C CNN
 F 3 "~" H 11250 9150 50  0001 C CNN
 	1    11250 9150
 	0    -1   -1   0   
@@ -1361,7 +1350,7 @@ U 1 1 5FE32DF7
 P 11250 9450
 F 0 "R5" V 11350 9450 50  0000 C CNN
 F 1 "1.2k" V 11150 9450 50  0000 C CNN
-F 2 "" V 11180 9450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11180 9450 50  0001 C CNN
 F 3 "~" H 11250 9450 50  0001 C CNN
 	1    11250 9450
 	0    -1   -1   0   
@@ -1375,7 +1364,7 @@ U 1 1 5FE331E4
 P 11250 9750
 F 0 "R6" V 11350 9750 50  0000 C CNN
 F 1 "1.2k" V 11150 9750 50  0000 C CNN
-F 2 "" V 11180 9750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11180 9750 50  0001 C CNN
 F 3 "~" H 11250 9750 50  0001 C CNN
 	1    11250 9750
 	0    -1   -1   0   
@@ -2070,24 +2059,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 3400 57
 	1    3400 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 15150 1550 2    50   UnSpc ~ 0
-HSYNC_START
-Text GLabel 15150 1650 2    50   UnSpc ~ 0
-HSYNC_END
-Text GLabel 15150 1750 2    50   UnSpc ~ 0
-HBLANK_START
-Text GLabel 15150 1850 2    50   UnSpc ~ 0
-HBLANK_END
-Text GLabel 15250 4100 2    50   UnSpc ~ 0
-VSYNC_START
-Text GLabel 15250 4200 2    50   UnSpc ~ 0
-VSYNC_END
-Text GLabel 15250 4300 2    50   UnSpc ~ 0
-VBLANK_START
-Text GLabel 15250 4400 2    50   UnSpc ~ 0
-VBLANK_END
-Text GLabel 15250 4600 2    50   UnSpc ~ 0
-VBLANK
 Text GLabel 3900 3900 0    50   Input ~ 0
 X2
 Text GLabel 4600 3900 2    50   Output ~ 0
@@ -2845,7 +2816,6 @@ Wire Notes Line
 	6850 3750 8750 3750
 Wire Notes Line
 	9300 3600 9300 5700
-NoConn ~ 14150 2650
 NoConn ~ 13650 1900
 Wire Notes Line
 	15800 3150 15800 1050
@@ -2864,76 +2834,246 @@ Wire Notes Line
 Text Notes 850  10650 0    50   ~ 0
 This video card outputs SVGA at 800x600 using a 40MHz pixel clock. It displays a 100 x 37 array of 8x16 characters,\neach with 4-bit RGBI foreground and background colours. Characters are RAM based and therefore are fully\ncustomizable and must be supplied by the CPU at boot. It masters the CPU clock drives the CPU at 5MHz.\n\nThe circuit is in theory capable of displaying 1024 x 768 (128x48) but I couldn't find a through-hole 65MHz\noscillator. I am also worried about running the CPU at 8+MHZ without an upgraded ROM.
 $Comp
-L Connector:DB15_Female_HighDensity J?
+L Connector:DB15_Female_HighDensity J3
 U 1 1 5FE4F9CB
-P 15050 7200
-F 0 "J?" H 15050 8067 50  0000 C CNN
-F 1 "DB15_Female_HighDensity" H 15050 7976 50  0000 C CNN
-F 2 "" H 14100 7600 50  0001 C CNN
-F 3 " ~" H 14100 7600 50  0001 C CNN
-	1    15050 7200
+P 15150 6850
+F 0 "J3" H 15150 7717 50  0000 C CNN
+F 1 "DB15_Female_HighDensity" H 15150 7626 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 14200 7250 50  0001 C CNN
+F 3 " ~" H 14200 7250 50  0001 C CNN
+	1    15150 6850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5FE5F12B
-P 14500 7600
-F 0 "#PWR?" H 14500 7350 50  0001 C CNN
-F 1 "GND" H 14500 7450 50  0000 C CNN
-F 2 "" H 14500 7600 50  0001 C CNN
-F 3 "" H 14500 7600 50  0001 C CNN
-	1    14500 7600
+P 14600 7250
+F 0 "#PWR014" H 14600 7000 50  0001 C CNN
+F 1 "GND" H 14600 7100 50  0000 C CNN
+F 2 "" H 14600 7250 50  0001 C CNN
+F 3 "" H 14600 7250 50  0001 C CNN
+	1    14600 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14650 6800 0    50   Input ~ 0
+Text GLabel 14750 6450 0    50   Input ~ 0
 R
-Text GLabel 14650 7000 0    50   Input ~ 0
+Text GLabel 14750 6650 0    50   Input ~ 0
 G
-Text GLabel 14650 7200 0    50   Input ~ 0
+Text GLabel 14750 6850 0    50   Input ~ 0
 B
-Text GLabel 15450 7200 2    50   Input ~ 0
+Text GLabel 15550 6850 2    50   Input ~ 0
 HSYNC
-Text GLabel 15450 7400 2    50   Input ~ 0
+Text GLabel 15550 7050 2    50   Input ~ 0
 VSYNC
 Wire Wire Line
-	15450 7400 15350 7400
+	15550 7050 15450 7050
 Wire Wire Line
-	15350 7200 15450 7200
+	15450 6850 15550 6850
 Wire Wire Line
-	14650 7200 14750 7200
+	14750 6850 14850 6850
 Wire Wire Line
-	14650 7000 14750 7000
+	14750 6650 14850 6650
 Wire Wire Line
-	14650 6800 14750 6800
+	14750 6450 14850 6450
 Wire Wire Line
-	14750 7600 14500 7600
+	14850 7250 14600 7250
 Wire Wire Line
-	14500 6700 14750 6700
+	14600 6350 14850 6350
 Wire Wire Line
-	14500 6900 14750 6900
-Connection ~ 14500 6900
+	14600 6550 14850 6550
+Connection ~ 14600 6550
 Wire Wire Line
-	14500 6900 14500 6700
+	14600 6550 14600 6350
 Wire Wire Line
-	14500 7100 14750 7100
-Connection ~ 14500 7100
+	14600 6750 14850 6750
+Connection ~ 14600 6750
 Wire Wire Line
-	14500 7100 14500 6900
+	14600 6750 14600 6550
 Wire Wire Line
-	14500 7300 14750 7300
-Connection ~ 14500 7300
+	14600 6950 14850 6950
+Connection ~ 14600 6950
 Wire Wire Line
-	14500 7300 14500 7100
+	14600 6950 14600 6750
 Wire Wire Line
-	14500 7600 14500 7500
+	14600 7250 14600 7150
 Wire Wire Line
-	14500 7500 14750 7500
-Connection ~ 14500 7500
+	14600 7150 14850 7150
+Connection ~ 14600 7150
 Wire Wire Line
-	14500 7500 14500 7300
-NoConn ~ 14750 7400
-NoConn ~ 15350 6800
-NoConn ~ 15350 7000
-NoConn ~ 15350 7600
-Connection ~ 14500 7600
+	14600 7150 14600 6950
+NoConn ~ 14850 7050
+NoConn ~ 15450 6450
+NoConn ~ 15450 6650
+NoConn ~ 15450 7250
+Connection ~ 14600 7250
+NoConn ~ 15150 1950
+NoConn ~ 15150 2050
+NoConn ~ 15150 2150
+NoConn ~ 15150 2250
+NoConn ~ 15150 2350
+NoConn ~ 15150 2450
+NoConn ~ 15250 4500
+NoConn ~ 15250 4600
+NoConn ~ 15250 4700
+NoConn ~ 15250 4800
+NoConn ~ 15250 4900
+NoConn ~ 15250 5000
+NoConn ~ 1050 3200
+NoConn ~ 1050 3300
+NoConn ~ 1050 3400
+NoConn ~ 1050 3500
+NoConn ~ 1050 3600
+NoConn ~ 1050 3700
+Text GLabel 14150 1550 0    50   Input ~ 0
+VCLK
+Text GLabel 14250 4100 0    50   Input ~ 0
+VCLK
+$Comp
+L Device:R R3
+U 1 1 5FE5144C
+P 10850 9750
+F 0 "R3" V 10950 9750 50  0000 C CNN
+F 1 "680R" V 10750 9750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10780 9750 50  0001 C CNN
+F 3 "~" H 10850 9750 50  0001 C CNN
+	1    10850 9750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5FCD6B27
+P 14850 7800
+F 0 "#PWR0170" H 14850 7550 50  0001 C CNN
+F 1 "GND" V 14850 7600 50  0000 C CNN
+F 2 "" H 14850 7800 50  0001 C CNN
+F 3 "" H 14850 7800 50  0001 C CNN
+	1    14850 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0171
+U 1 1 5FCF186B
+P 15350 7900
+F 0 "#PWR0171" H 15350 7750 50  0001 C CNN
+F 1 "+5V" V 15350 8050 50  0000 L CNN
+F 2 "" H 15350 7900 50  0001 C CNN
+F 3 "" H 15350 7900 50  0001 C CNN
+	1    15350 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 5FC3AB9B
+P 15350 7800
+F 0 "#PWR0172" H 15350 7550 50  0001 C CNN
+F 1 "GND" V 15350 7600 50  0000 C CNN
+F 2 "" H 15350 7800 50  0001 C CNN
+F 3 "" H 15350 7800 50  0001 C CNN
+	1    15350 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR035
+U 1 1 5FC259E0
+P 14850 7900
+F 0 "#PWR035" H 14850 7750 50  0001 C CNN
+F 1 "+5V" V 14850 8050 50  0000 L CNN
+F 2 "" H 14850 7900 50  0001 C CNN
+F 3 "" H 14850 7900 50  0001 C CNN
+	1    14850 7900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 15350 8500 2    50   Input ~ 0
+!P_SELECT
+Text GLabel 15350 8000 2    50   BiDi ~ 0
+CLK
+Text GLabel 15350 8100 2    50   Input ~ 0
+PHI2
+Text GLabel 15350 8200 2    50   BiDi ~ 0
+!NMI
+Text GLabel 15350 8300 2    50   Input ~ 0
+!WRITE
+Text GLabel 15350 8400 2    50   BiDi ~ 0
+!RESET
+Text GLabel 14850 8300 0    50   Input ~ 0
+R!W
+Text GLabel 14850 8000 0    50   Input ~ 0
+PHI1
+Text GLabel 14850 8200 0    50   Input ~ 0
+!READ
+Text GLabel 14850 8400 0    50   BiDi ~ 0
+RDY
+Text GLabel 14850 8100 0    50   BiDi ~ 0
+!IRQ
+Text GLabel 15350 9700 2    50   BiDi ~ 0
+D7
+Text GLabel 15350 9600 2    50   BiDi ~ 0
+D5
+Text GLabel 15350 9500 2    50   BiDi ~ 0
+D3
+Text GLabel 15350 9400 2    50   BiDi ~ 0
+D1
+Text GLabel 14850 9700 0    50   BiDi ~ 0
+D6
+Text GLabel 14850 9600 0    50   BiDi ~ 0
+D4
+Text GLabel 14850 9500 0    50   BiDi ~ 0
+D2
+Text GLabel 14850 9400 0    50   BiDi ~ 0
+D0
+Text GLabel 15350 9300 2    50   Input ~ 0
+A15
+Text GLabel 15350 9200 2    50   Input ~ 0
+A13
+Text GLabel 15350 9100 2    50   Input ~ 0
+A11
+Text GLabel 14850 9300 0    50   Input ~ 0
+A14
+Text GLabel 14850 9200 0    50   Input ~ 0
+A12
+Text GLabel 14850 9100 0    50   Input ~ 0
+A10
+Text GLabel 15350 9000 2    50   Input ~ 0
+A9
+Text GLabel 15350 8900 2    50   Input ~ 0
+A7
+Text GLabel 15350 8800 2    50   Input ~ 0
+A5
+Text GLabel 15350 8700 2    50   Input ~ 0
+A3
+Text GLabel 15350 8600 2    50   Input ~ 0
+A1
+Text GLabel 14850 9000 0    50   Input ~ 0
+A8
+Text GLabel 14850 8900 0    50   Input ~ 0
+A6
+Text GLabel 14850 8800 0    50   Input ~ 0
+A4
+Text GLabel 14850 8700 0    50   Input ~ 0
+A2
+Text GLabel 14850 8600 0    50   Input ~ 0
+A0
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 6016E766
+P 15050 8700
+F 0 "J1" H 15100 9817 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 15100 9726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 15050 8700 50  0001 C CNN
+F 3 "~" H 15050 8700 50  0001 C CNN
+	1    15050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 60187D71
+P 7350 10400
+F 0 "J2" H 7400 11517 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 7400 11426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 7350 10400 50  0001 C CNN
+F 3 "~" H 7350 10400 50  0001 C CNN
+	1    7350 10400
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14850 8500
 $EndSCHEMATC
