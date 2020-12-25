@@ -135,11 +135,11 @@ F 3 "" H 7850 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 65xx:W65C51NxP U2
+L 65xx:W65C51NxP U3
 U 1 1 5FC67B85
 P 5800 2300
-F 0 "U2" H 5800 2300 50  0000 C CNN
-F 1 "W65C51NxP" H 5800 2400 50  0000 C CIB
+F 0 "U3" H 5800 2300 50  0000 C CNN
+F 1 "W65C51N" H 5800 2400 50  0000 C CIB
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 5800 2450 50  0001 C CNN
 F 3 "http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf" H 5800 2450 50  0001 C CNN
 	1    5800 2300
@@ -393,10 +393,10 @@ Text GLabel 1300 1300 0    50   Input ~ 0
 PHI2
 NoConn ~ 6400 1500
 $Comp
-L 74xx:74LS138 U3
+L 74xx:74LS138 U2
 U 1 1 5FCA545F
 P 2050 5050
-F 0 "U3" H 2050 5100 50  0000 C CNN
+F 0 "U2" H 2050 5100 50  0000 C CNN
 F 1 "74HC138" H 2050 5000 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2050 5050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 2050 5050 50  0001 C CNN
@@ -446,7 +446,7 @@ L 65xx:W65C22NxP U1
 U 1 1 5FCBE814
 P 1900 2300
 F 0 "U1" H 1900 2150 50  0000 C CNN
-F 1 "W65C22NxP" H 1900 2250 50  0000 C CIB
+F 1 "W65C22N" H 1900 2250 50  0000 C CIB
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 1900 2450 50  0001 C CNN
 F 3 "http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf" H 1900 2450 50  0001 C CNN
 	1    1900 2300
@@ -579,7 +579,7 @@ F 1 "0.1uF" H 8215 1355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8138 1250 50  0001 C CNN
 F 3 "~" H 8100 1400 50  0001 C CNN
 	1    8100 1400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C2
@@ -590,7 +590,7 @@ F 1 "0.1uF" H 8715 1355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 8638 1250 50  0001 C CNN
 F 3 "~" H 8600 1400 50  0001 C CNN
 	1    8600 1400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C3
@@ -601,7 +601,7 @@ F 1 "0.1uF" H 9215 1355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 9138 1250 50  0001 C CNN
 F 3 "~" H 9100 1400 50  0001 C CNN
 	1    9100 1400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9100 1250 8600 1250
@@ -658,56 +658,6 @@ F 3 "" H 3150 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 J4
-U 1 1 5FCB6E8C
-P 3350 2800
-F 0 "J4" H 3430 2792 50  0000 L CNN
-F 1 "Conn_01x12" H 3430 2701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Horizontal" H 3430 2655 50  0001 L CNN
-F 3 "~" H 3350 2800 50  0001 C CNN
-	1    3350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0105
-U 1 1 5FCBB521
-P 3150 2300
-F 0 "#PWR0105" H 3150 2150 50  0001 C CNN
-F 1 "+5V" V 3165 2428 50  0000 L CNN
-F 2 "" H 3150 2300 50  0001 C CNN
-F 3 "" H 3150 2300 50  0001 C CNN
-	1    3150 2300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2500 2400 3150 2400
-Wire Wire Line
-	2500 2500 3150 2500
-Wire Wire Line
-	2500 2600 3150 2600
-Wire Wire Line
-	2500 2700 3150 2700
-Wire Wire Line
-	2500 2800 3150 2800
-Wire Wire Line
-	2500 2900 3150 2900
-Wire Wire Line
-	2500 3000 3150 3000
-Wire Wire Line
-	2500 3100 3150 3100
-Wire Wire Line
-	2500 3300 2750 3300
-Wire Wire Line
-	2750 3300 2750 3200
-Wire Wire Line
-	2750 3200 3150 3200
-Wire Wire Line
-	2500 3400 2850 3400
-Wire Wire Line
-	2850 3400 2850 3300
-Wire Wire Line
-	2850 3300 3150 3300
-$Comp
 L Connector_Generic:Conn_01x06 J5
 U 1 1 5FCC838F
 P 7100 2100
@@ -756,7 +706,7 @@ F 3 "" H 6900 2400 50  0001 C CNN
 	1    6900 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 5100 2    50   Input ~ 0
+Text GLabel 4450 5100 2    50   Output ~ 0
 CLK_S
 $Comp
 L power:GND #PWR0107
@@ -819,15 +769,4 @@ Text GLabel 1550 5450 0    50   Input ~ 0
 !P_SELECT
 Text GLabel 1550 5350 0    50   Input ~ 0
 A7
-$Comp
-L power:GND #PWR0106
-U 1 1 5FCD568B
-P 3150 3400
-F 0 "#PWR0106" H 3150 3150 50  0001 C CNN
-F 1 "GND" V 3155 3272 50  0000 R CNN
-F 2 "" H 3150 3400 50  0001 C CNN
-F 3 "" H 3150 3400 50  0001 C CNN
-	1    3150 3400
-	0    1    1    0   
-$EndComp
 $EndSCHEMATC

@@ -218,7 +218,7 @@ F 1 "0.1uF" H 1450 4650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1788 4550 50  0001 C CNN
 F 3 "~" H 1750 4700 50  0001 C CNN
 	1    1750 4700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C2
@@ -229,7 +229,7 @@ F 1 "0.1uF" H 1050 4650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 1388 4550 50  0001 C CNN
 F 3 "~" H 1350 4700 50  0001 C CNN
 	1    1350 4700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C1
@@ -251,7 +251,7 @@ F 1 "0.1uF" H 1850 4650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2188 4550 50  0001 C CNN
 F 3 "~" H 2150 4700 50  0001 C CNN
 	1    2150 4700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 7400 4850 0    50   Input ~ 0
 A0
