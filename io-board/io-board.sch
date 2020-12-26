@@ -18,7 +18,7 @@ L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 5FBC22CE
 P 8050 5150
 F 0 "J1" H 8100 6267 50  0000 C CNN
-F 1 "Expansion" H 8100 6176 50  0000 C CNN
+F 1 "EXP" H 8100 6176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8050 5150 50  0001 C CNN
 F 3 "~" H 8050 5150 50  0001 C CNN
 	1    8050 5150
@@ -207,7 +207,7 @@ L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 5FC81D83
 P 9550 5150
 F 0 "J2" H 9600 6267 50  0000 C CNN
-F 1 "Expansion" H 9600 6176 50  0000 C CNN
+F 1 "EXP" H 9600 6176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 9550 5150 50  0001 C CNN
 F 3 "~" H 9550 5150 50  0001 C CNN
 	1    9550 5150
