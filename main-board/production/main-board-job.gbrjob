@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2020-12-26T15:35:11+00:00"
+    "CreationDate":  "2020-12-27T09:28:02+00:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "computer",
-      "GUID": "636f6d70-7574-4657-922e-6b696361645f",
+      "Name": "main-board",
+      "GUID": "6d61696e-2d62-46f6-9172-642e6b696361",
       "Revision": "rev?"
     },
     "Size":
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "computer-F_Cu.gbr",
+      "Path":  "main-board-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-B_Cu.gbr",
+      "Path":  "main-board-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-F_Paste.gbr",
+      "Path":  "main-board-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-B_Paste.gbr",
+      "Path":  "main-board-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-F_SilkS.gbr",
+      "Path":  "main-board-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-B_SilkS.gbr",
+      "Path":  "main-board-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "computer-F_Mask.gbr",
+      "Path":  "main-board-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "computer-B_Mask.gbr",
+      "Path":  "main-board-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "computer-Edge_Cuts.gbr",
+      "Path":  "main-board-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
