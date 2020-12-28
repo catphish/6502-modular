@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2020-12-28T18:09:36+00:00"
+    "CreationDate":  "2020-12-28T18:18:32+00:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "vga-board",
-      "GUID": "7667612d-626f-4617-9264-2e6b69636164",
+      "Name": "sound-board",
+      "GUID": "736f756e-642d-4626-9f61-72642e6b6963",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 189.330,
-      "Y": 83.920
+      "X": 189.280,
+      "Y": 79.425
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "vga-board-F_Cu.gbr",
+      "Path":  "sound-board-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-B_Cu.gbr",
+      "Path":  "sound-board-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-F_Paste.gbr",
+      "Path":  "sound-board-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-B_Paste.gbr",
+      "Path":  "sound-board-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-F_SilkS.gbr",
+      "Path":  "sound-board-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-B_SilkS.gbr",
+      "Path":  "sound-board-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "vga-board-F_Mask.gbr",
+      "Path":  "sound-board-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "vga-board-B_Mask.gbr",
+      "Path":  "sound-board-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "vga-board-Edge_Cuts.gbr",
+      "Path":  "sound-board-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
