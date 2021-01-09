@@ -831,4 +831,67 @@ Text GLabel 3700 2550 2    50   BiDi ~ 0
 VD4
 Text GLabel 3700 3950 2    50   BiDi ~ 0
 VD5
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5FFA207D
+P 5750 5100
+F 0 "#PWR0102" H 5750 4950 50  0001 C CNN
+F 1 "+3V3" V 5765 5228 50  0000 L CNN
+F 2 "" H 5750 5100 50  0001 C CNN
+F 3 "" H 5750 5100 50  0001 C CNN
+	1    5750 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FFA3434
+P 5750 5400
+F 0 "#PWR0103" H 5750 5150 50  0001 C CNN
+F 1 "GND" V 5755 5272 50  0000 R CNN
+F 2 "" H 5750 5400 50  0001 C CNN
+F 3 "" H 5750 5400 50  0001 C CNN
+	1    5750 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5FFA4B8B
+P 5450 5200
+F 0 "J3" H 5500 5617 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5500 5526 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5450 5200 50  0001 C CNN
+F 3 "~" H 5450 5200 50  0001 C CNN
+	1    5450 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 6350 2    50   Input ~ 0
+TCK
+Text GLabel 3700 6150 2    50   Input ~ 0
+TDI
+Text GLabel 3700 6450 2    50   Output ~ 0
+TDO
+Text GLabel 3700 6250 2    50   Input ~ 0
+TMS
+Text GLabel 5250 5000 0    50   Output ~ 0
+TCK
+Text GLabel 5250 5100 0    50   Input ~ 0
+TDO
+Text GLabel 5250 5200 0    50   Output ~ 0
+TMS
+Text GLabel 5250 5400 0    50   Output ~ 0
+TDI
+NoConn ~ 5250 5300
+NoConn ~ 5750 5300
+$Comp
+L power:GND #PWR0104
+U 1 1 5FFB4C0A
+P 5750 5000
+F 0 "#PWR0104" H 5750 4750 50  0001 C CNN
+F 1 "GND" V 5755 4872 50  0000 R CNN
+F 2 "" H 5750 5000 50  0001 C CNN
+F 3 "" H 5750 5000 50  0001 C CNN
+	1    5750 5000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5750 5200
 $EndSCHEMATC
