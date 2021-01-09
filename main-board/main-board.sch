@@ -111,68 +111,46 @@ Text GLabel 1850 3400 2    50   Input ~ 0
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 5FBC22CE
-P 7600 5150
-F 0 "J1" H 7650 6267 50  0000 C CNN
-F 1 "EXP" H 7650 6176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 7600 5150 50  0001 C CNN
-F 3 "~" H 7600 5150 50  0001 C CNN
-	1    7600 5150
+P 8500 5150
+F 0 "J1" H 8550 6267 50  0000 C CNN
+F 1 "EXP" H 8550 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8500 5150 50  0001 C CNN
+F 3 "~" H 8500 5150 50  0001 C CNN
+	1    8500 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 4650 2    50   BiDi ~ 0
+Text GLabel 8800 4550 2    50   BiDi ~ 0
 !RESET
-Text GLabel 7400 4450 0    50   BiDi ~ 0
+Text GLabel 8300 4350 0    50   BiDi ~ 0
 !IRQ
-Text GLabel 7400 4750 0    50   BiDi ~ 0
+Text GLabel 8300 4650 0    50   BiDi ~ 0
 RDY
-Text GLabel 7900 4550 2    50   Input ~ 0
+Text GLabel 8800 4450 2    50   Input ~ 0
 !WRITE
-Text GLabel 7400 4550 0    50   Input ~ 0
+Text GLabel 8300 4450 0    50   Input ~ 0
 !READ
-Text GLabel 7900 4450 2    50   BiDi ~ 0
+Text GLabel 8800 4350 2    50   BiDi ~ 0
 !NMI
-$Comp
-L power:+5V #PWR0106
-U 1 1 5FC31ACE
-P 1600 5450
-F 0 "#PWR0106" H 1600 5300 50  0001 C CNN
-F 1 "+5V" H 1600 5600 50  0000 C CNN
-F 2 "" H 1600 5450 50  0001 C CNN
-F 3 "" H 1600 5450 50  0001 C CNN
-	1    1600 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 5FC324B1
-P 2600 5450
-F 0 "#PWR0120" H 2600 5200 50  0001 C CNN
-F 1 "GND" H 2600 5300 50  0000 C CNN
-F 2 "" H 2600 5450 50  0001 C CNN
-F 3 "" H 2600 5450 50  0001 C CNN
-	1    2600 5450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0147
 U 1 1 5FC259E0
-P 7900 6050
-F 0 "#PWR0147" H 7900 5900 50  0001 C CNN
-F 1 "+5V" V 7900 6200 50  0000 L CNN
-F 2 "" H 7900 6050 50  0001 C CNN
-F 3 "" H 7900 6050 50  0001 C CNN
-	1    7900 6050
+P 8800 6050
+F 0 "#PWR0147" H 8800 5900 50  0001 C CNN
+F 1 "+5V" V 8800 6200 50  0000 L CNN
+F 2 "" H 8800 6050 50  0001 C CNN
+F 3 "" H 8800 6050 50  0001 C CNN
+	1    8800 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5FC3AB9B
-P 7400 6150
-F 0 "#PWR0108" H 7400 5900 50  0001 C CNN
-F 1 "GND" V 7400 5950 50  0000 C CNN
-F 2 "" H 7400 6150 50  0001 C CNN
-F 3 "" H 7400 6150 50  0001 C CNN
-	1    7400 6150
+P 8300 6150
+F 0 "#PWR0108" H 8300 5900 50  0001 C CNN
+F 1 "GND" V 8300 5950 50  0000 C CNN
+F 2 "" H 8300 6150 50  0001 C CNN
+F 3 "" H 8300 6150 50  0001 C CNN
+	1    8300 6150
 	0    1    1    0   
 $EndComp
 Wire Notes Line
@@ -253,178 +231,118 @@ F 3 "~" H 2150 4700 50  0001 C CNN
 	1    2150 4700
 	1    0    0    1   
 $EndComp
-Text GLabel 7400 4850 0    50   Input ~ 0
+Text GLabel 8300 4850 0    50   Input ~ 0
 A0
-Text GLabel 7900 4850 2    50   Input ~ 0
+Text GLabel 8800 4850 2    50   Input ~ 0
 A1
-Text GLabel 7400 4950 0    50   Input ~ 0
+Text GLabel 8300 4950 0    50   Input ~ 0
 A2
-Text GLabel 7900 4950 2    50   Input ~ 0
+Text GLabel 8800 4950 2    50   Input ~ 0
 A3
-Text GLabel 7400 5050 0    50   Input ~ 0
+Text GLabel 8300 5050 0    50   Input ~ 0
 A4
-Text GLabel 7900 5050 2    50   Input ~ 0
+Text GLabel 8800 5050 2    50   Input ~ 0
 A5
-Text GLabel 7400 5150 0    50   Input ~ 0
+Text GLabel 8300 5150 0    50   Input ~ 0
 A6
-Text GLabel 7900 5150 2    50   Input ~ 0
+Text GLabel 8800 5150 2    50   Input ~ 0
 A7
-Text GLabel 7400 5250 0    50   Input ~ 0
+Text GLabel 8300 5250 0    50   Input ~ 0
 A8
-Text GLabel 7900 5250 2    50   Input ~ 0
+Text GLabel 8800 5250 2    50   Input ~ 0
 A9
-Text GLabel 7400 5350 0    50   Input ~ 0
+Text GLabel 8300 5350 0    50   Input ~ 0
 A10
-Text GLabel 7900 5350 2    50   Input ~ 0
+Text GLabel 8800 5350 2    50   Input ~ 0
 A11
-Text GLabel 7400 5450 0    50   Input ~ 0
+Text GLabel 8300 5450 0    50   Input ~ 0
 A12
-Text GLabel 7900 5450 2    50   Input ~ 0
+Text GLabel 8800 5450 2    50   Input ~ 0
 A13
-Text GLabel 7400 5550 0    50   Input ~ 0
+Text GLabel 8300 5550 0    50   Input ~ 0
 A14
-Text GLabel 7900 5550 2    50   Input ~ 0
+Text GLabel 8800 5550 2    50   Input ~ 0
 A15
 $Comp
 L power:+5V #PWR0162
 U 1 1 5FCF186B
-P 7400 6050
-F 0 "#PWR0162" H 7400 5900 50  0001 C CNN
-F 1 "+5V" V 7400 6200 50  0000 L CNN
-F 2 "" H 7400 6050 50  0001 C CNN
-F 3 "" H 7400 6050 50  0001 C CNN
-	1    7400 6050
+P 8300 6050
+F 0 "#PWR0162" H 8300 5900 50  0001 C CNN
+F 1 "+5V" V 8300 6200 50  0000 L CNN
+F 2 "" H 8300 6050 50  0001 C CNN
+F 3 "" H 8300 6050 50  0001 C CNN
+	1    8300 6050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7400 5650 0    50   BiDi ~ 0
+Text GLabel 8300 5650 0    50   BiDi ~ 0
 D0
-Text GLabel 7900 5650 2    50   BiDi ~ 0
+Text GLabel 8800 5650 2    50   BiDi ~ 0
 D1
-Text GLabel 7400 5750 0    50   BiDi ~ 0
+Text GLabel 8300 5750 0    50   BiDi ~ 0
 D2
-Text GLabel 7900 5750 2    50   BiDi ~ 0
+Text GLabel 8800 5750 2    50   BiDi ~ 0
 D3
-Text GLabel 7400 5850 0    50   BiDi ~ 0
+Text GLabel 8300 5850 0    50   BiDi ~ 0
 D4
-Text GLabel 7900 5850 2    50   BiDi ~ 0
+Text GLabel 8800 5850 2    50   BiDi ~ 0
 D5
-Text GLabel 7400 5950 0    50   BiDi ~ 0
+Text GLabel 8300 5950 0    50   BiDi ~ 0
 D6
-Text GLabel 7900 5950 2    50   BiDi ~ 0
+Text GLabel 8800 5950 2    50   BiDi ~ 0
 D7
-Text GLabel 7400 4350 0    50   Input ~ 0
+Text GLabel 8300 4250 0    50   Input ~ 0
 PHI1
-Text GLabel 7900 4350 2    50   Input ~ 0
+Text GLabel 8800 4250 2    50   Input ~ 0
 PHI2
-Text GLabel 7900 4250 2    50   BiDi ~ 0
+Text GLabel 8800 4650 2    50   BiDi ~ 0
 CLK
-Text GLabel 7400 4650 0    50   Input ~ 0
+Text GLabel 8300 4550 0    50   Input ~ 0
 R!W
 $Comp
-L 74xx:74LS30 U4
-U 1 1 5FD1B1AC
-P 8450 1850
-F 0 "U4" H 8450 2150 50  0000 C CNN
-F 1 "74HC30" H 8450 2050 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8450 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS30" H 8450 1850 50  0001 C CNN
-	1    8450 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U5
+L 74xx:74HC00 U4
 U 1 1 5FD1C900
-P 8450 1250
-F 0 "U5" H 8450 1550 50  0000 C CNN
-F 1 "74HC00" H 8450 1450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8450 1250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8450 1250 50  0001 C CNN
-	1    8450 1250
+P 9050 1850
+F 0 "U4" H 9050 2150 50  0000 C CNN
+F 1 "74HC00" H 9050 2050 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9050 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 9050 1850 50  0001 C CNN
+	1    9050 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 8050 1250 0    50   Input ~ 0
+Text GLabel 8900 1300 0    50   Input ~ 0
 A15
-Wire Wire Line
-	8050 1250 8100 1250
-Wire Wire Line
-	8100 1250 8100 1150
-Wire Wire Line
-	8100 1150 8150 1150
-Wire Wire Line
-	8100 1250 8100 1350
-Wire Wire Line
-	8100 1350 8150 1350
-Connection ~ 8100 1250
-Text GLabel 8150 1550 0    50   Input ~ 0
-A8
-Text GLabel 8150 1650 0    50   Input ~ 0
-A9
-Text GLabel 8150 1750 0    50   Input ~ 0
-A10
-Text GLabel 8150 1850 0    50   Input ~ 0
-A11
-Text GLabel 8150 1950 0    50   Input ~ 0
-A12
-Text GLabel 8150 2050 0    50   Input ~ 0
-A13
-Text GLabel 8150 2150 0    50   Input ~ 0
-A14
-Text GLabel 7900 4750 2    50   Input ~ 0
-!P_SELECT
-Text GLabel 8750 1250 2    50   Output ~ 0
+Text GLabel 9350 1850 2    50   Output ~ 0
 !ROM_SELECT
-Text GLabel 8750 2600 2    50   Output ~ 0
+Text GLabel 9200 1300 2    50   Output ~ 0
 !RAM_SELECT
-Text GLabel 7600 3600 0    50   Input ~ 0
+Text GLabel 8350 3000 0    50   Input ~ 0
 PHI2
-Text GLabel 9050 3500 2    50   Output ~ 0
+Text GLabel 9800 2900 2    50   Output ~ 0
 !READ
-$Comp
-L 74xx:74HC00 U5
-U 2 1 5FD4E5BD
-P 8450 2600
-F 0 "U5" H 8450 2925 50  0000 C CNN
-F 1 "74HC00" H 8450 2834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8450 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8450 2600 50  0001 C CNN
-	2    8450 2600
-	1    0    0    -1  
-$EndComp
-Text GLabel 7600 3400 0    50   Input ~ 0
+Text GLabel 8350 2800 0    50   Input ~ 0
 R!W
-Text GLabel 8450 3150 0    50   Input ~ 0
+Text GLabel 9200 2550 0    50   Input ~ 0
 PHI2
 Wire Wire Line
-	8200 3500 8350 3500
+	8950 2900 9100 2900
 Wire Wire Line
-	8450 3350 8350 3350
+	9200 2750 9100 2750
 Wire Wire Line
-	8350 3350 8350 3500
-Connection ~ 8350 3500
+	9100 2750 9100 2900
+Connection ~ 9100 2900
 Wire Wire Line
-	8350 3500 9050 3500
-Text GLabel 9050 3250 2    50   Output ~ 0
+	9100 2900 9800 2900
+Text GLabel 9800 2650 2    50   Output ~ 0
 !WRITE
 $Comp
-L 74xx:74LS30 U4
-U 2 1 5FDC1BA2
-P 1200 5550
-F 0 "U4" V 1350 5550 50  0000 C CNN
-F 1 "74HC30" V 1050 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1200 5550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS30" H 1200 5550 50  0001 C CNN
-	2    1200 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HC00 U5
+L 74xx:74HC00 U4
 U 3 1 5FDC6581
-P 7900 3500
-F 0 "U5" H 7900 3825 50  0000 C CNN
-F 1 "74HC00" H 7900 3734 50  0000 C CNN
-F 2 "" H 7900 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 7900 3500 50  0001 C CNN
-	3    7900 3500
+P 8650 2900
+F 0 "U4" H 8650 3225 50  0000 C CNN
+F 1 "74HC00" H 8650 3134 50  0000 C CNN
+F 2 "" H 8650 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8650 2900 50  0001 C CNN
+	3    8650 2900
 	1    0    0    -1  
 $EndComp
 Connection ~ 1350 4550
@@ -441,28 +359,6 @@ Wire Wire Line
 Connection ~ 1750 4550
 Wire Wire Line
 	2150 4550 1750 4550
-$Comp
-L power:GND #PWR0165
-U 1 1 5FE18ED2
-P 1700 5550
-F 0 "#PWR0165" H 1700 5300 50  0001 C CNN
-F 1 "GND" H 1700 5400 50  0000 C CNN
-F 2 "" H 1700 5550 50  0001 C CNN
-F 3 "" H 1700 5550 50  0001 C CNN
-	1    1700 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0166
-U 1 1 5FE1AC03
-P 700 5550
-F 0 "#PWR0166" H 700 5400 50  0001 C CNN
-F 1 "+5V" H 700 5700 50  0000 C CNN
-F 2 "" H 700 5550 50  0001 C CNN
-F 3 "" H 700 5550 50  0001 C CNN
-	1    700  5550
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	600  5200 2700 5200
 Wire Notes Line
@@ -473,57 +369,27 @@ Wire Notes Line
 	600  5200 600  5800
 Text Notes 600  5200 0    50   ~ 0
 Gates need power!
-Text GLabel 8150 2250 0    50   Input ~ 0
-!ROM_SELECT
-Text GLabel 8150 2500 0    50   Input ~ 0
-!P_SELECT
-Text GLabel 8150 2700 0    50   Input ~ 0
-!ROM_SELECT
 $Comp
-L 74xx:74HC00 U5
+L 74xx:74HC00 U4
 U 4 1 5FE69A2D
-P 8750 3250
-F 0 "U5" H 8750 3575 50  0000 C CNN
-F 1 "74HC00" H 8750 3484 50  0000 C CNN
-F 2 "" H 8750 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8750 3250 50  0001 C CNN
-	4    8750 3250
+P 9500 2650
+F 0 "U4" H 9500 2975 50  0000 C CNN
+F 1 "74HC00" H 9500 2884 50  0000 C CNN
+F 2 "" H 9500 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 9500 2650 50  0001 C CNN
+	4    9500 2650
 	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U5
-U 5 1 5FE6E728
-P 2100 5450
-F 0 "U5" V 2250 5450 50  0000 C CNN
-F 1 "74HC00" V 1950 5450 50  0000 C CNN
-F 2 "" H 2100 5450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2100 5450 50  0001 C CNN
-	5    2100 5450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 5FEF224C
-P 7900 6150
-F 0 "#PWR0121" H 7900 5900 50  0001 C CNN
-F 1 "GND" V 7900 5950 50  0000 C CNN
-F 2 "" H 7900 6150 50  0001 C CNN
-F 3 "" H 7900 6150 50  0001 C CNN
-	1    7900 6150
+P 8800 6150
+F 0 "#PWR0121" H 8800 5900 50  0001 C CNN
+F 1 "GND" V 8800 5950 50  0000 C CNN
+F 2 "" H 8800 6150 50  0001 C CNN
+F 3 "" H 8800 6150 50  0001 C CNN
+	1    8800 6150
 	0    -1   -1   0   
-$EndComp
-Text GLabel 8750 1850 2    50   Output ~ 0
-!P_SELECT
-$Comp
-L power:GND #PWR0107
-U 1 1 5FCD6B27
-P 7400 4250
-F 0 "#PWR0107" H 7400 4000 50  0001 C CNN
-F 1 "GND" V 7400 4050 50  0000 C CNN
-F 2 "" H 7400 4250 50  0001 C CNN
-F 3 "" H 7400 4250 50  0001 C CNN
-	1    7400 4250
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1500 1400 1500 1250
@@ -592,138 +458,125 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 5FCDE43D
-P 9100 5150
-F 0 "J2" H 9150 6267 50  0000 C CNN
-F 1 "EXP" H 9150 6176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 9100 5150 50  0001 C CNN
-F 3 "~" H 9100 5150 50  0001 C CNN
-	1    9100 5150
+P 10000 5150
+F 0 "J2" H 10050 6267 50  0000 C CNN
+F 1 "EXP" H 10050 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 10000 5150 50  0001 C CNN
+F 3 "~" H 10000 5150 50  0001 C CNN
+	1    10000 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 4650 2    50   BiDi ~ 0
+Text GLabel 10300 4550 2    50   BiDi ~ 0
 !RESET
-Text GLabel 8900 4450 0    50   BiDi ~ 0
+Text GLabel 9800 4350 0    50   BiDi ~ 0
 !IRQ
-Text GLabel 8900 4750 0    50   BiDi ~ 0
+Text GLabel 9800 4650 0    50   BiDi ~ 0
 RDY
-Text GLabel 9400 4550 2    50   Input ~ 0
+Text GLabel 10300 4450 2    50   Input ~ 0
 !WRITE
-Text GLabel 8900 4550 0    50   Input ~ 0
+Text GLabel 9800 4450 0    50   Input ~ 0
 !READ
-Text GLabel 9400 4450 2    50   BiDi ~ 0
+Text GLabel 10300 4350 2    50   BiDi ~ 0
 !NMI
 $Comp
 L power:+5V #PWR0122
 U 1 1 5FCDEC25
-P 9400 6050
-F 0 "#PWR0122" H 9400 5900 50  0001 C CNN
-F 1 "+5V" V 9400 6200 50  0000 L CNN
-F 2 "" H 9400 6050 50  0001 C CNN
-F 3 "" H 9400 6050 50  0001 C CNN
-	1    9400 6050
+P 10300 6050
+F 0 "#PWR0122" H 10300 5900 50  0001 C CNN
+F 1 "+5V" V 10300 6200 50  0000 L CNN
+F 2 "" H 10300 6050 50  0001 C CNN
+F 3 "" H 10300 6050 50  0001 C CNN
+	1    10300 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 5FCDEC2F
-P 8900 6150
-F 0 "#PWR0123" H 8900 5900 50  0001 C CNN
-F 1 "GND" V 8900 5950 50  0000 C CNN
-F 2 "" H 8900 6150 50  0001 C CNN
-F 3 "" H 8900 6150 50  0001 C CNN
-	1    8900 6150
+P 9800 6150
+F 0 "#PWR0123" H 9800 5900 50  0001 C CNN
+F 1 "GND" V 9800 5950 50  0000 C CNN
+F 2 "" H 9800 6150 50  0001 C CNN
+F 3 "" H 9800 6150 50  0001 C CNN
+	1    9800 6150
 	0    1    1    0   
 $EndComp
-Text GLabel 8900 4850 0    50   Input ~ 0
+Text GLabel 9800 4850 0    50   Input ~ 0
 A0
-Text GLabel 9400 4850 2    50   Input ~ 0
+Text GLabel 10300 4850 2    50   Input ~ 0
 A1
-Text GLabel 8900 4950 0    50   Input ~ 0
+Text GLabel 9800 4950 0    50   Input ~ 0
 A2
-Text GLabel 9400 4950 2    50   Input ~ 0
+Text GLabel 10300 4950 2    50   Input ~ 0
 A3
-Text GLabel 8900 5050 0    50   Input ~ 0
+Text GLabel 9800 5050 0    50   Input ~ 0
 A4
-Text GLabel 9400 5050 2    50   Input ~ 0
+Text GLabel 10300 5050 2    50   Input ~ 0
 A5
-Text GLabel 8900 5150 0    50   Input ~ 0
+Text GLabel 9800 5150 0    50   Input ~ 0
 A6
-Text GLabel 9400 5150 2    50   Input ~ 0
+Text GLabel 10300 5150 2    50   Input ~ 0
 A7
-Text GLabel 8900 5250 0    50   Input ~ 0
+Text GLabel 9800 5250 0    50   Input ~ 0
 A8
-Text GLabel 9400 5250 2    50   Input ~ 0
+Text GLabel 10300 5250 2    50   Input ~ 0
 A9
-Text GLabel 8900 5350 0    50   Input ~ 0
+Text GLabel 9800 5350 0    50   Input ~ 0
 A10
-Text GLabel 9400 5350 2    50   Input ~ 0
+Text GLabel 10300 5350 2    50   Input ~ 0
 A11
-Text GLabel 8900 5450 0    50   Input ~ 0
+Text GLabel 9800 5450 0    50   Input ~ 0
 A12
-Text GLabel 9400 5450 2    50   Input ~ 0
+Text GLabel 10300 5450 2    50   Input ~ 0
 A13
-Text GLabel 8900 5550 0    50   Input ~ 0
+Text GLabel 9800 5550 0    50   Input ~ 0
 A14
-Text GLabel 9400 5550 2    50   Input ~ 0
+Text GLabel 10300 5550 2    50   Input ~ 0
 A15
 $Comp
 L power:+5V #PWR0124
 U 1 1 5FCDEC49
-P 8900 6050
-F 0 "#PWR0124" H 8900 5900 50  0001 C CNN
-F 1 "+5V" V 8900 6200 50  0000 L CNN
-F 2 "" H 8900 6050 50  0001 C CNN
-F 3 "" H 8900 6050 50  0001 C CNN
-	1    8900 6050
+P 9800 6050
+F 0 "#PWR0124" H 9800 5900 50  0001 C CNN
+F 1 "+5V" V 9800 6200 50  0000 L CNN
+F 2 "" H 9800 6050 50  0001 C CNN
+F 3 "" H 9800 6050 50  0001 C CNN
+	1    9800 6050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8900 5650 0    50   BiDi ~ 0
+Text GLabel 9800 5650 0    50   BiDi ~ 0
 D0
-Text GLabel 9400 5650 2    50   BiDi ~ 0
+Text GLabel 10300 5650 2    50   BiDi ~ 0
 D1
-Text GLabel 8900 5750 0    50   BiDi ~ 0
+Text GLabel 9800 5750 0    50   BiDi ~ 0
 D2
-Text GLabel 9400 5750 2    50   BiDi ~ 0
+Text GLabel 10300 5750 2    50   BiDi ~ 0
 D3
-Text GLabel 8900 5850 0    50   BiDi ~ 0
+Text GLabel 9800 5850 0    50   BiDi ~ 0
 D4
-Text GLabel 9400 5850 2    50   BiDi ~ 0
+Text GLabel 10300 5850 2    50   BiDi ~ 0
 D5
-Text GLabel 8900 5950 0    50   BiDi ~ 0
+Text GLabel 9800 5950 0    50   BiDi ~ 0
 D6
-Text GLabel 9400 5950 2    50   BiDi ~ 0
+Text GLabel 10300 5950 2    50   BiDi ~ 0
 D7
-Text GLabel 8900 4350 0    50   Input ~ 0
+Text GLabel 9800 4250 0    50   Input ~ 0
 PHI1
-Text GLabel 9400 4350 2    50   Input ~ 0
+Text GLabel 10300 4250 2    50   Input ~ 0
 PHI2
-Text GLabel 9400 4250 2    50   BiDi ~ 0
+Text GLabel 10300 4650 2    50   BiDi ~ 0
 CLK
-Text GLabel 8900 4650 0    50   Input ~ 0
+Text GLabel 9800 4550 0    50   Input ~ 0
 R!W
-Text GLabel 9400 4750 2    50   Input ~ 0
-!P_SELECT
 $Comp
 L power:GND #PWR0125
 U 1 1 5FCDEC60
-P 9400 6150
-F 0 "#PWR0125" H 9400 5900 50  0001 C CNN
-F 1 "GND" V 9400 5950 50  0000 C CNN
-F 2 "" H 9400 6150 50  0001 C CNN
-F 3 "" H 9400 6150 50  0001 C CNN
-	1    9400 6150
+P 10300 6150
+F 0 "#PWR0125" H 10300 5900 50  0001 C CNN
+F 1 "GND" V 10300 5950 50  0000 C CNN
+F 2 "" H 10300 6150 50  0001 C CNN
+F 3 "" H 10300 6150 50  0001 C CNN
+	1    10300 6150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5FCDEC6A
-P 8900 4250
-F 0 "#PWR0126" H 8900 4000 50  0001 C CNN
-F 1 "GND" V 8900 4050 50  0000 C CNN
-F 2 "" H 8900 4250 50  0001 C CNN
-F 3 "" H 8900 4250 50  0001 C CNN
-	1    8900 4250
-	0    1    1    0   
 $EndComp
 Wire Notes Line
 	600  4300 2700 4300
@@ -810,75 +663,53 @@ Just a 6502.
 Text Notes 5100 2150 0    50   ~ 0
 EEPROM - 32KB (16KB usable)
 Wire Notes Line
-	5100 2150 6750 2150
+	5100 2150 7200 2150
 Wire Notes Line
-	5100 4800 5100 2150
+	5100 5150 5100 2150
 Wire Notes Line
-	6750 4800 5100 4800
+	7200 5150 5100 5150
 Wire Notes Line
-	6750 2150 6750 4800
+	7200 2150 7200 5150
 $Comp
 L power:+5V #PWR0109
 U 1 1 5FB6B072
-P 6100 2350
-F 0 "#PWR0109" H 6100 2200 50  0001 C CNN
-F 1 "+5V" H 6100 2500 50  0000 C CNN
-F 2 "" H 6100 2350 50  0001 C CNN
-F 3 "" H 6100 2350 50  0001 C CNN
-	1    6100 2350
+P 6350 2400
+F 0 "#PWR0109" H 6350 2250 50  0001 C CNN
+F 1 "+5V" H 6350 2550 50  0000 C CNN
+F 2 "" H 6350 2400 50  0001 C CNN
+F 3 "" H 6350 2400 50  0001 C CNN
+	1    6350 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5FB10E97
-P 6100 4550
-F 0 "#PWR0111" H 6100 4300 50  0001 C CNN
-F 1 "GND" H 6100 4400 50  0000 C CNN
-F 2 "" H 6100 4550 50  0001 C CNN
-F 3 "" H 6100 4550 50  0001 C CNN
-	1    6100 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 5700 3850 0    50   Input ~ 0
+Text GLabel 5750 3800 0    50   Input ~ 0
 A13
-Text GLabel 5700 3750 0    50   Input ~ 0
+Text GLabel 5750 3700 0    50   Input ~ 0
 A12
-Text GLabel 5700 3650 0    50   Input ~ 0
+Text GLabel 5750 3600 0    50   Input ~ 0
 A11
-Text GLabel 5700 3550 0    50   Input ~ 0
+Text GLabel 5750 3500 0    50   Input ~ 0
 A10
-Text GLabel 5700 3450 0    50   Input ~ 0
+Text GLabel 5750 3400 0    50   Input ~ 0
 A9
-Text GLabel 5700 3350 0    50   Input ~ 0
+Text GLabel 5750 3300 0    50   Input ~ 0
 A8
-Text GLabel 5700 3250 0    50   Input ~ 0
+Text GLabel 5750 3200 0    50   Input ~ 0
 A7
-Text GLabel 5700 3150 0    50   Input ~ 0
+Text GLabel 5750 3100 0    50   Input ~ 0
 A6
-Text GLabel 5700 3050 0    50   Input ~ 0
+Text GLabel 5750 3000 0    50   Input ~ 0
 A5
-Text GLabel 5700 2950 0    50   Input ~ 0
+Text GLabel 5750 2900 0    50   Input ~ 0
 A4
-Text GLabel 5700 2850 0    50   Input ~ 0
+Text GLabel 5750 2800 0    50   Input ~ 0
 A3
-Text GLabel 5700 2750 0    50   Input ~ 0
+Text GLabel 5750 2700 0    50   Input ~ 0
 A2
-Text GLabel 5700 2650 0    50   Input ~ 0
+Text GLabel 5750 2600 0    50   Input ~ 0
 A1
-Text GLabel 5700 2550 0    50   Input ~ 0
+Text GLabel 5750 2500 0    50   Input ~ 0
 A0
-$Comp
-L power:+5V #PWR0113
-U 1 1 5FB0D427
-P 5700 4150
-F 0 "#PWR0113" H 5700 4000 50  0001 C CNN
-F 1 "+5V" V 5700 4300 50  0000 L CNN
-F 2 "" H 5700 4150 50  0001 C CNN
-F 3 "" H 5700 4150 50  0001 C CNN
-	1    5700 4150
-	0    -1   -1   0   
-$EndComp
-Text GLabel 5700 4350 0    50   Input ~ 0
+Text GLabel 5750 4700 0    50   Input ~ 0
 !ROM_SELECT
 Text GLabel 4600 2550 2    50   Output ~ 0
 A0
@@ -928,21 +759,21 @@ Text GLabel 4600 4850 2    50   BiDi ~ 0
 D6
 Text GLabel 4600 4950 2    50   BiDi ~ 0
 D7
-Text GLabel 6500 2550 2    50   Output ~ 0
+Text GLabel 6950 2500 2    50   Output ~ 0
 D0
-Text GLabel 6500 2650 2    50   Output ~ 0
+Text GLabel 6950 2600 2    50   Output ~ 0
 D1
-Text GLabel 6500 2750 2    50   Output ~ 0
+Text GLabel 6950 2700 2    50   Output ~ 0
 D2
-Text GLabel 6500 2850 2    50   Output ~ 0
+Text GLabel 6950 2800 2    50   Output ~ 0
 D3
-Text GLabel 6500 2950 2    50   Output ~ 0
+Text GLabel 6950 2900 2    50   Output ~ 0
 D4
-Text GLabel 6500 3050 2    50   Output ~ 0
+Text GLabel 6950 3000 2    50   Output ~ 0
 D5
-Text GLabel 6500 3150 2    50   Output ~ 0
+Text GLabel 6950 3100 2    50   Output ~ 0
 D6
-Text GLabel 6500 3250 2    50   Output ~ 0
+Text GLabel 6950 3200 2    50   Output ~ 0
 D7
 $Comp
 L power:+5V #PWR0115
@@ -988,7 +819,7 @@ Text GLabel 3400 2950 0    50   Output ~ 0
 PHI1
 Text GLabel 3400 3050 0    50   Output ~ 0
 PHI2
-Text GLabel 5700 4250 0    50   Input ~ 0
+Text GLabel 5750 4800 0    50   Input ~ 0
 !READ
 Text GLabel 3350 3850 0    50   BiDi ~ 0
 RDY
@@ -1061,17 +892,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 4050 3400 4050
 $Comp
-L Memory_EEPROM:28C256 U2
-U 1 1 5FAF9279
-P 6100 3450
-F 0 "U2" H 6150 2300 50  0000 L CNN
-F 1 "28C256" H 6150 2400 50  0000 L CNN
-F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 6100 3450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 6100 3450 50  0001 C CNN
-	1    6100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L computer:DS1813 U6
 U 1 1 5FF4A010
 P 3400 1300
@@ -1097,8 +917,6 @@ Wire Notes Line
 	2800 1800 2800 850 
 Wire Notes Line
 	4150 1800 2800 1800
-Text GLabel 5700 3950 0    50   Input ~ 0
-A14
 Wire Wire Line
 	3350 3200 3350 3350
 Connection ~ 3350 3350
@@ -1108,4 +926,155 @@ Connection ~ 3350 3450
 Wire Wire Line
 	3350 3850 3350 4050
 Connection ~ 3350 4050
+Wire Wire Line
+	9200 1300 8900 1300
+Text GLabel 8750 1950 0    50   Input ~ 0
+A15
+Text GLabel 8750 1750 0    50   Input ~ 0
+A14
+$Comp
+L power:+5V #PWR0106
+U 1 1 5FC31ACE
+P 1600 5450
+F 0 "#PWR0106" H 1600 5300 50  0001 C CNN
+F 1 "+5V" H 1600 5600 50  0000 C CNN
+F 2 "" H 1600 5450 50  0001 C CNN
+F 3 "" H 1600 5450 50  0001 C CNN
+	1    1600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5FC324B1
+P 2600 5450
+F 0 "#PWR0120" H 2600 5200 50  0001 C CNN
+F 1 "GND" H 2600 5300 50  0000 C CNN
+F 2 "" H 2600 5450 50  0001 C CNN
+F 3 "" H 2600 5450 50  0001 C CNN
+	1    2600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U4
+U 5 1 5FE6E728
+P 2100 5450
+F 0 "U4" V 2250 5450 50  0000 C CNN
+F 1 "74HC00" V 1950 5450 50  0000 C CNN
+F 2 "" H 2100 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2100 5450 50  0001 C CNN
+	5    2100 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FFF5B33
+P 8300 4750
+F 0 "#PWR0107" H 8300 4500 50  0001 C CNN
+F 1 "GND" V 8300 4550 50  0000 C CNN
+F 2 "" H 8300 4750 50  0001 C CNN
+F 3 "" H 8300 4750 50  0001 C CNN
+	1    8300 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FFF666C
+P 8800 4750
+F 0 "#PWR0112" H 8800 4500 50  0001 C CNN
+F 1 "GND" V 8800 4550 50  0000 C CNN
+F 2 "" H 8800 4750 50  0001 C CNN
+F 3 "" H 8800 4750 50  0001 C CNN
+	1    8800 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FFFA4A5
+P 9800 4750
+F 0 "#PWR0113" H 9800 4500 50  0001 C CNN
+F 1 "GND" V 9800 4550 50  0000 C CNN
+F 2 "" H 9800 4750 50  0001 C CNN
+F 3 "" H 9800 4750 50  0001 C CNN
+	1    9800 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5FFFAB0B
+P 10300 4750
+F 0 "#PWR0126" H 10300 4500 50  0001 C CNN
+F 1 "GND" V 10300 4550 50  0000 C CNN
+F 2 "" H 10300 4750 50  0001 C CNN
+F 3 "" H 10300 4750 50  0001 C CNN
+	1    10300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Memory_Flash:SST39SF010 U2
+U 1 1 5FF990ED
+P 6350 3700
+F 0 "U2" H 6350 3700 50  0000 C CNN
+F 1 "SST39SF010" H 6500 2600 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket" H 6350 4000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 6350 4000 50  0001 C CNN
+	1    6350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 60004A9D
+P 5750 3900
+F 0 "#PWR0129" H 5750 3650 50  0001 C CNN
+F 1 "GND" V 5750 3700 50  0000 C CNN
+F 2 "" H 5750 3900 50  0001 C CNN
+F 3 "" H 5750 3900 50  0001 C CNN
+	1    5750 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 60007035
+P 5750 4000
+F 0 "#PWR0130" H 5750 3750 50  0001 C CNN
+F 1 "GND" V 5750 3800 50  0000 C CNN
+F 2 "" H 5750 4000 50  0001 C CNN
+F 3 "" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 60007282
+P 5750 4100
+F 0 "#PWR0131" H 5750 3850 50  0001 C CNN
+F 1 "GND" V 5750 3900 50  0000 C CNN
+F 2 "" H 5750 4100 50  0001 C CNN
+F 3 "" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	0    1    1    0   
+$EndComp
+NoConn ~ 5750 4200
+NoConn ~ 5750 4300
+$Comp
+L power:+5V #PWR0132
+U 1 1 60009569
+P 5750 4500
+F 0 "#PWR0132" H 5750 4350 50  0001 C CNN
+F 1 "+5V" V 5750 4650 50  0000 L CNN
+F 2 "" H 5750 4500 50  0001 C CNN
+F 3 "" H 5750 4500 50  0001 C CNN
+	1    5750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FB10E97
+P 6350 4900
+F 0 "#PWR0111" H 6350 4650 50  0001 C CNN
+F 1 "GND" H 6350 4750 50  0000 C CNN
+F 2 "" H 6350 4900 50  0001 C CNN
+F 3 "" H 6350 4900 50  0001 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

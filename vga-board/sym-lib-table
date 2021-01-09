@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name computer)(type Legacy)(uri ${KIPRJMOD}/../libraries/computer.lib)(options "")(descr ""))
   (lib (name 65xx)(type Legacy)(uri ${KIPRJMOD}/../libraries/65xx.lib)(options "")(descr ""))
+  (lib (name computer)(type Legacy)(uri ${KIPRJMOD}/../libraries/computer.lib)(options "")(descr ""))
 )

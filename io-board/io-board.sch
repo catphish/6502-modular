@@ -70,25 +70,25 @@ Text GLabel 7850 5850 0    50   BiDi ~ 0
 D4
 Text GLabel 7850 5950 0    50   BiDi ~ 0
 D6
-Text GLabel 7850 4350 0    50   BiDi ~ 0
+Text GLabel 7850 4250 0    50   BiDi ~ 0
 PHI1
-Text GLabel 8350 4350 2    50   BiDi ~ 0
-PHI2
-Text GLabel 8350 4650 2    50   BiDi ~ 0
-!RESET
-Text GLabel 7850 4450 0    50   BiDi ~ 0
-!IRQ
-Text GLabel 7850 4650 0    50   BiDi ~ 0
-R!W
-Text GLabel 7850 4750 0    50   BiDi ~ 0
-RDY
-Text GLabel 8350 4550 2    50   BiDi ~ 0
-!WRITE
-Text GLabel 7850 4550 0    50   BiDi ~ 0
-!READ
 Text GLabel 8350 4250 2    50   BiDi ~ 0
-CLK
+PHI2
+Text GLabel 8350 4550 2    50   BiDi ~ 0
+!RESET
+Text GLabel 7850 4350 0    50   BiDi ~ 0
+!IRQ
+Text GLabel 7850 4550 0    50   BiDi ~ 0
+R!W
+Text GLabel 7850 4650 0    50   BiDi ~ 0
+RDY
 Text GLabel 8350 4450 2    50   BiDi ~ 0
+!WRITE
+Text GLabel 7850 4450 0    50   BiDi ~ 0
+!READ
+Text GLabel 8350 4650 2    50   BiDi ~ 0
+CLK
+Text GLabel 8350 4350 2    50   BiDi ~ 0
 !NMI
 $Comp
 L power:GND #PWR0151
@@ -711,62 +711,71 @@ CLK_S
 $Comp
 L power:GND #PWR0107
 U 1 1 5FCC8CC9
-P 7850 4250
-F 0 "#PWR0107" H 7850 4000 50  0001 C CNN
-F 1 "GND" V 7850 4050 50  0000 C CNN
-F 2 "" H 7850 4250 50  0001 C CNN
-F 3 "" H 7850 4250 50  0001 C CNN
-	1    7850 4250
+P 7850 4750
+F 0 "#PWR0107" H 7850 4500 50  0001 C CNN
+F 1 "GND" V 7850 4550 50  0000 C CNN
+F 2 "" H 7850 4750 50  0001 C CNN
+F 3 "" H 7850 4750 50  0001 C CNN
+	1    7850 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 8350 4750 2    50   BiDi ~ 0
-!P_SELECT
-Text GLabel 9350 4350 0    50   BiDi ~ 0
+Text GLabel 9350 4250 0    50   BiDi ~ 0
 PHI1
-Text GLabel 9350 4450 0    50   BiDi ~ 0
+Text GLabel 9350 4350 0    50   BiDi ~ 0
 !IRQ
-Text GLabel 9350 4650 0    50   BiDi ~ 0
-R!W
-Text GLabel 9350 4750 0    50   BiDi ~ 0
-RDY
 Text GLabel 9350 4550 0    50   BiDi ~ 0
+R!W
+Text GLabel 9350 4650 0    50   BiDi ~ 0
+RDY
+Text GLabel 9350 4450 0    50   BiDi ~ 0
 !READ
 $Comp
 L power:GND #PWR0111
 U 1 1 5FCCC288
-P 9350 4250
-F 0 "#PWR0111" H 9350 4000 50  0001 C CNN
-F 1 "GND" V 9350 4050 50  0000 C CNN
-F 2 "" H 9350 4250 50  0001 C CNN
-F 3 "" H 9350 4250 50  0001 C CNN
-	1    9350 4250
+P 9350 4750
+F 0 "#PWR0111" H 9350 4500 50  0001 C CNN
+F 1 "GND" V 9350 4550 50  0000 C CNN
+F 2 "" H 9350 4750 50  0001 C CNN
+F 3 "" H 9350 4750 50  0001 C CNN
+	1    9350 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 9850 4350 2    50   BiDi ~ 0
-PHI2
-Text GLabel 9850 4650 2    50   BiDi ~ 0
-!RESET
-Text GLabel 9850 4550 2    50   BiDi ~ 0
-!WRITE
 Text GLabel 9850 4250 2    50   BiDi ~ 0
-CLK
+PHI2
+Text GLabel 9850 4550 2    50   BiDi ~ 0
+!RESET
 Text GLabel 9850 4450 2    50   BiDi ~ 0
+!WRITE
+Text GLabel 9850 4650 2    50   BiDi ~ 0
+CLK
+Text GLabel 9850 4350 2    50   BiDi ~ 0
 !NMI
-Text GLabel 9850 4750 2    50   BiDi ~ 0
-!P_SELECT
+Text GLabel 1550 5450 0    50   Input ~ 0
+A7
 $Comp
-L power:+5V #PWR0112
-U 1 1 5FCCF7A4
-P 1550 5250
-F 0 "#PWR0112" H 1550 5100 50  0001 C CNN
-F 1 "+5V" V 1565 5378 50  0000 L CNN
-F 2 "" H 1550 5250 50  0001 C CNN
-F 3 "" H 1550 5250 50  0001 C CNN
-	1    1550 5250
+L power:GND #PWR?
+U 1 1 5FF86D9A
+P 8350 4750
+F 0 "#PWR?" H 8350 4500 50  0001 C CNN
+F 1 "GND" V 8350 4550 50  0000 C CNN
+F 2 "" H 8350 4750 50  0001 C CNN
+F 3 "" H 8350 4750 50  0001 C CNN
+	1    8350 4750
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1550 5450 0    50   Input ~ 0
-!P_SELECT
+$Comp
+L power:GND #PWR?
+U 1 1 5FF9509A
+P 9850 4750
+F 0 "#PWR?" H 9850 4500 50  0001 C CNN
+F 1 "GND" V 9850 4550 50  0000 C CNN
+F 2 "" H 9850 4750 50  0001 C CNN
+F 3 "" H 9850 4750 50  0001 C CNN
+	1    9850 4750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 5250 0    50   Input ~ 0
+A15
 Text GLabel 1550 5350 0    50   Input ~ 0
-A7
+A14
 $EndSCHEMATC
